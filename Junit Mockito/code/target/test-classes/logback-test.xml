@@ -1,0 +1,7 @@
+<configuration>
+	<appender name="static-appender" class="com.Logging.code.StaticLogbackAppender" />
+
+	<root level="trace">
+		<appender-ref ref="static-appender" />
+	</root>
+</configuration>
